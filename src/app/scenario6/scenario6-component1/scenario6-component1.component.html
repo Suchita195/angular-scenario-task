@@ -1,0 +1,6 @@
+<p [class]="successClass">Scenario 6 works!!</p>
+<p>Parent</p>
+
+<app-scenario6-component2 (childEvent)="name=$event"></app-scenario6-component2>
+
+<app-scenario6-component3 [parentData]="name"></app-scenario6-component3>
